@@ -216,7 +216,6 @@ bash RiboKast_cont_orf.sh
 ## 📂 Repository
 
 All scripts and examples are available at:
-
 ```
 https://github.com/Transipedia/RiboKast
 ```
