@@ -193,7 +193,7 @@ Then launch the main workflow with:
 
 ```bash
 bash RiboKast_cont_orf.sh
-
+```
 - **Additional scripts**: Located in the `SCRIPTS/` directory. These include:
   - K-mer generation tools
   - Statistical analysis (e.g., binomial testing)
