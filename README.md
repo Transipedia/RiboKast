@@ -11,7 +11,7 @@ To build the Ribo-seq k-mer index required by RiboKast, you can use [RiboKastInd
 
 ### 1. Set Up and Activate Conda Environment
 
-The pipeline relies on a Conda environment defined in the `RiboKastIndex.yaml` file. Follow the steps below to set up and activate the environment.
+The pipeline relies on a Conda environment defined in the `RiboKast.yaml` file. Follow the steps below to set up and activate the environment.
 
 #### Step 1: Create the Conda Environment
 
