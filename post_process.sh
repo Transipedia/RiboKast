@@ -10,7 +10,9 @@ IFS=$'\n\t'
 
 # ---- Conda + config ----
 source /home/safa.maddouri/miniconda3/bin/activate ribokast
-source "/store/EQUIPES/SSFA/MEMBERS/safa.maddouri/RiboKast_test/config.sh"
+SUBMIT_DIR="${SLURM_SUBMIT_DIR:-$PWD}"
+CONFIG_SH="${SUBMIT_DIR}/config.sh"
+source "$CONFIG_SH"
 
 RESULTS_DIR="$CONTIGS_DIR"
 PLOTS_DIR="$RESULTS_DIR/plots"
