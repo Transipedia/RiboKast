@@ -7,7 +7,9 @@
 source /home/safa.maddouri/miniconda3/bin/activate ribokast
 
 # ==== LOAD CONFIG ====
-source "/store/EQUIPES/SSFA/MEMBERS/safa.maddouri/RiboKast_test/config.sh"
+SUBMIT_DIR="${SLURM_SUBMIT_DIR:-$PWD}"
+CONFIG_SH="${SUBMIT_DIR}/config.sh"
+source "$CONFIG_SH"
 
 # ==== EXECUTE SCRIPTS ====
 
